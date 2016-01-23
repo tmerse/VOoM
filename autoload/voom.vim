@@ -1225,6 +1225,9 @@ nnoremap <buffer><silent> <LocalLeader>e :<C-u>call voom#Exec('')<CR>
 " delete outline
 nnoremap <buffer><silent> q :<C-u>call voom#DeleteOutline()<CR>
 
+" custom bindings
+nnoremap <buffer><silent> L :<C-u>call voom#TreeRight()<CR>
+
     """ }}}
 
     let &cpo = cpo_
